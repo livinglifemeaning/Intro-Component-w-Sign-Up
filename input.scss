@@ -170,11 +170,15 @@ box-shadow: none;
     overflow: hidden; 
     background-image: url('images/bg-intro-desktop.png'); 
     background-repeat: no-repeat; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
     }
 
     .flex-container{
         flex-direction: row; 
         text-align: left; 
+        
     }
 
     .row{
